@@ -1,53 +1,83 @@
-# Creating Your Own NPX Introduction Command
+# hello-anil
 
-Creating your own `npx` introduction command can be a fun and useful project! The `npx` command allows you to run Node.js-based packages without having to globally install them. Here's a step-by-step guide to creating your own `npx` introduction command:
+A fun NPX command that introduces Anil Vishwakarma - a developer who loves building things!
 
-## Step 1: Choose a Package Name
+## 🚀 Quick Start
 
-Decide on a unique name for your package. This name will be used to invoke your introduction command using `npx`.
-
-## Step 2: Create a New Directory
-
-Create a new directory for your package. You can name it after the package name you chose in the previous step.
+Run this command in your terminal to get to know Anil:
 
 ```bash
-mkdir my-npx-intro
-cd my-npx-intro
+npx hello-anil
 ```
 
-## Step 3: Initialize Your Package
+## 📋 What You'll See
 
-Initialize your project as a Node.js package using the following command:
+When you run the command, you'll see a colorful box in your terminal with:
+
+- A personal introduction
+- Professional background
+- Links to GitHub, LinkedIn, and portfolio
+
+## 🎨 Example Output
+
+```
++---------------------------------------------------------------+
+| Hey! I'm Anil — full-time developer,                         |
+| part-time bug hunter, and forever a learner.                 |
+| Whether it's JavaScript, Node.js, or Flutter,                |
+| I'm all about building, breaking, and learning!              |
++---------------------------------------------------------------+
+| GitHub:    https://github.com/anilsjr                        |
+| LinkedIn:  https://www.linkedin.com/in/anilvk/               |
+| Portfolio: https://anilsjr.github.io/portfolio               |
++---------------------------------------------------------------+
+```
+
+## 💻 Tech Stack
+
+This package is built with:
+
+- **Node.js** - Runtime environment
+- **ANSI escape codes** - For colorful terminal output
+
+## 🔧 Installation
+
+### Global Installation
 
 ```bash
-npm init -y
+npm install -g hello-anil
+hello-anil
 ```
 
-## Create an Executable Script
-
-Inside your project directory, create a JavaScript file that will serve as the executable script for your npx command. Let's call this file index.js. You can follow my example or edit it accordingly.
-
-### Make sure to define bin in 'package.json'
-
-```json
-"bin": {
-  "my-npx-command": "./index.js"
-},
-```
-
-## Make the Script Executable
-
-In your terminal, make your script file executable by running:
-
-### For Linux
+### One-time Execution (Recommended)
 
 ```bash
-chmod +x index.js
+npx hello-anil
 ```
 
-### For Windows
+## 📦 Package Info
 
-**Note:** git should be installed.
+- **Version**: 1.1.1
+- **Author**: Anil Vishwakarma
+- **License**: ISC
+
+## 🤝 Connect with Anil
+
+- **GitHub**: [anilsjr](https://github.com/anilsjr)
+- **LinkedIn**: [anilvk](https://www.linkedin.com/in/anilvk/)
+- **Portfolio**: [anilsjr.github.io/portfolio](https://anilsjr.github.io/portfolio)
+
+## 🎯 About This Package
+
+This is a personal introduction package that showcases how to create interactive NPX commands. It's perfect for:
+
+- Quick personal introductions
+- Learning about NPX packages
+- Terminal-based business cards
+
+---
+
+**Made with ❤️ by Anil Vishwakarma**
 
 ```powershell
 git update-index --chmod=+x index.js
