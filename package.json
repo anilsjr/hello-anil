@@ -9,7 +9,30 @@
   "bin": {
     "hello-anil": "index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "hello",
+    "anil",
+    "world",
+    "hello world",
+    "flutter",
+    "cli",
+    "terminal",
+    "developer",
+    "portfolio",
+    "business-card",
+    "personal",
+    "introduction",
+    "bio",
+    "contact",
+    "developer-card",
+    "npx",
+    "javascript",
+    "nodejs",
+    "colorful",
+    "ansi",
+    "command-line",
+    "tool"
+  ],
   "author": "Anil Vishwakarma",
   "license": "ISC"
 }
